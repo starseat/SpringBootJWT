@@ -5,8 +5,6 @@ import com.boot.jwt.springbootjwt.jwt.JwtAccessDeniedHandler;
 import com.boot.jwt.springbootjwt.jwt.JwtAuthenticationEntryPoint;
 import com.boot.jwt.springbootjwt.jwt.JwtSecurityConfig;
 import com.boot.jwt.springbootjwt.jwt.TokenProvider;
-import com.boot.jwt.springbootjwt.utils.JwtUtil;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
