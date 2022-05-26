@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/sbjwtdb
+    username: sbjwt_user
+    password: sbjwt_pw
+  jpa:
+    showSql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect  # JAP ?????? ??? ??
+#    properties:hibernate.hbm2ddl.auto: update
+    hibernate:
+      ddl-auto: create  # SessionFactory ???? ?? ??? ?? ? ?? ??
+    properties:
+      hibernate:
+        format_sql: true
