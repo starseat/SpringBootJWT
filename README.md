@@ -1,2 +1,0 @@
-# SpringBootJWT
-Spring Boot JWT
